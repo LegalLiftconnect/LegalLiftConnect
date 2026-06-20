@@ -1,4 +1,8 @@
 
+const SUPABASE_URL = "https://hhdbupqwqlkkbaduxzgt.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9........";
+
+
 const S={leads:'ll_blue_leads',refs:'ll_blue_refs',partners:'ll_blue_partners',firms:'ll_blue_firms'};
 function get(k){return JSON.parse(localStorage.getItem(k)||'[]')}
 function set(k,v){localStorage.setItem(k,JSON.stringify(v))}
